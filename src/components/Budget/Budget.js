@@ -10,7 +10,7 @@ import './Budget.css';
 import { connect } from 'react-redux';
 import { requestUserData } from './../../redux/userReducer';
 import { requestBudgetData } from './../../redux/budgetReducer';
-import {requestBudgetData, addPurchase, removePurchase } from './../../redux/budgetReducer'
+import { addPurchase, removePurchase } from './../../redux/budgetReducer'
 
 
 class Budget extends Component {
